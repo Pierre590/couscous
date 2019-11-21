@@ -1,16 +1,19 @@
-.acceuil img {
+header {
+    background-image: url(imageacceuil.jpeg);
+    background-size: cover;
+    text-align: center;
     width: 100%;
-    height:400px;
+    height:700px;
 }
 
-.image3 img {
-    margin-top: 30px;
+.letexte {
     width: 100%;
-    height:400px;
+    position: absolute;
+    margin-top: 15%;
 }
 
-.image2 img {
-    margin-top: 30px;
-    width: 100%;
-    height:400px;
+
+.image2 img,.image3 img {
+    max-width: 100%;
+    height:auto;
 }
